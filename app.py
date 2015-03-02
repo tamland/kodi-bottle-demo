@@ -11,6 +11,3 @@ def index():
 def hello(name='World'):
     return template('<b>Hello {{name}}</b>!', name=name)
 
-if __name__ == '__main__':
-    app.run(host='localhost', port=5000)
-
