@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<addon id="webinterface.bottle.demo" version="0.1.0" name="Bottle Demo" provider-name="Team-Kodi">
+<addon id="webinterface.bottle.demo" version="1.0.0" name="Bottle Demo" provider-name="Team-Kodi">
   <requires>
-    <import addon="xbmc.json" version="6.0.0"/>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.20.0"/>
     <import addon="xbmc.webinterface" version="1.0.0"/>
     <import addon="script.module.bottle" version="0.12.8"/>
   </requires>
   <extension point="xbmc.webinterface" type="wsgi" library="app.py" entry="app"/>
-  <extension point="xbmc.addon.metadata">
+  <extension point="kodi.addon.metadata">
     <summary lang="en"></summary>
-    <description lang="en"></description>
+    <description lang="en">Example Python WSGI web interface using Bottle micro framework</description>
     <platform>all</platform>
   </extension>
 </addon>
